@@ -1,1 +1,0 @@
-# yazmed.github.io
