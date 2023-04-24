@@ -1,0 +1,25 @@
+* {
+	color: #0f0;
+	background: #010;
+}
+body {
+  padding-top: 5%;
+  font-family: 'monospace', sans-serif;
+  font-weight: normal !important;
+  line-height: 1.6;
+  display: block;
+}
+section {
+	border: 2px solid #0f0;
+  text-decoration: none;
+  max-width: 900px;
+  margin: 0 auto !important;
+  padding-left: 5%;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+	color: #0b0;
+  text-decoration: underline;
+}
