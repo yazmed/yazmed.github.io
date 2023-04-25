@@ -13,6 +13,10 @@ body {
 	font: 16px Roboto, Sans-Serif;
 	line-height: 24px;
 }
+.toolbar {
+	text-align: center;
+	padding-bottom: 20px;
+}
 header {
 	padding-top: 20px;
 	padding-left: 50px;
@@ -58,6 +62,9 @@ header a {
 	text-decoration: none;
 }
 @media print {
+	.toolbar {
+		display: none !important;
+	}
 	a {
 		text-decoration: none;
 	}
@@ -103,4 +110,3 @@ ul {
 	padding-left: 0px;
 	list-style-type: circle;
 }
-
