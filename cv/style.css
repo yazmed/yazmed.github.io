@@ -16,6 +16,7 @@ body {
 .toolbar {
 	text-align: center;
 	padding-bottom: 20px;
+	padding-top: 60px;
 }
 header {
 	padding-top: 20px;
@@ -62,6 +63,9 @@ header a {
 	text-decoration: none;
 }
 @media print {
+	html {
+		scale: 90%;
+	}
 	.toolbar {
 		display: none !important;
 	}
