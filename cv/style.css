@@ -2,7 +2,6 @@ html {
 	--border-color: #000;
 	--scheme-color: #4472C4;
 }
-
 body {
 	background: #FFF;
 	display: flex;
@@ -64,7 +63,7 @@ header a {
 }
 @media print {
 	html {
-		scale: 90%;
+		scale: 100%;
 	}
 	.toolbar {
 		display: none !important;
@@ -102,15 +101,32 @@ h2 {
 }
 .details {
 	background: #ddd;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 1px;
+	padding-bottom: 1px;
 	padding-left: 30px;
 	width: 900px;
 }
 .details p {
 	margin-top: -20px;
 }
-ul {
+#exp p {
+	margin-bottom: -16px;
+}
+#com ul {
 	padding-left: 0px;
 	list-style-type: circle;
+}
+#small-detail {
+	font-size: 13px;
+	padding-left: 10px;
+}
+#exp ul {
+	line-height: 15px;
+	margin-top: -16px;
+	padding: 0 0 0 50px ;
+	list-style-type: circle;
+}
+#exp h4 {
+	margin-top: -16px;
+	padding-left: 25px;
 }
