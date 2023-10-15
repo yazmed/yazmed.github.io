@@ -111,6 +111,8 @@ h2 {
 }
 #exp p {
 	margin-bottom: -16px;
+	margin-left: 20px;
+	line-height: 1.1;
 }
 #com ul {
 	padding-left: 0px;
